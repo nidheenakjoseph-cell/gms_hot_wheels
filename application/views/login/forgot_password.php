@@ -42,10 +42,10 @@
 				<input type="email" id="test_recipient" name="test_recipient" placeholder="Mailtrap inbox email">
 				<p class="field-help">Use an existing GMS email above to create the reset link, and your Mailtrap inbox email here to receive it.</p>
 			</div>
-			<!-- <div class="auth-actions">
+			<div class="auth-actions">
 				<button type="submit" class="auth-button">Send reset link</button>
-				<button type="button" onclick="testMailtrapEmail()" class="auth-button auth-button-secondary">Test reset link with Mailtrap</button>
-			</div> -->
+				<!-- <button type="button" onclick="testMailtrapEmail()" class="auth-button auth-button-secondary">Test reset link with Mailtrap</button> -->
+			</div>
 		</form>
 
 		<a href="<?= base_url('index.php/login') ?>" class="auth-link">Back to login</a>
