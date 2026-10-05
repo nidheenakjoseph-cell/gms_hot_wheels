@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <title>
+            <?= htmlspecialchars($title) ?>
+        </title>
+
+        <style>
+
+            @page {
+                size: A4 landscape;
+                margin: 12mm;
+            }
+
+            body {
+                font-family: Arial, sans-serif;
+                font-size: 11px;
+                color: #222;
+                margin: 0;
+            }
+
+            .header {
+                text-align: center;
+                border-bottom: 2px solid #222;
+                padding-bottom: 10px;
+                margin-bottom: 15px;
+            }
+
+            .header h1 {
+                margin: 0;
+                font-size: 20px;
+            }
+
+            .header p {
+                margin: 4px 0;
+                color: #666;
+            }
+
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                table-layout: fixed;
+            }
+
+            th,
+            td {
+                border: 1px solid #ccc;
+                padding: 6px;
+                text-align: left;
+                vertical-align: middle;
+                word-wrap: break-word;
+            }
+
+            th {
+                background: #f3f4f6;
+                font-weight: bold;
+                font-size: 10px;
+            }
+
+            td {
+                font-size: 10px;
+            }
+
+            .footer {
+                margin-top: 20px;
+                padding-top: 8px;
+                border-top: 1px solid #ccc;
+                text-align: center;
+                font-size: 9px;
+                color: #777;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <div class="header">
+
+            <h1>
+                Garage Management System
+            </h1>
+
+            <p>
+                <?= htmlspecialchars($title) ?>
+            </p>
+
+            <p>
+                Generated:
+                <?= date('d-m-Y h:i A') ?>
+            </p>
+
+        </div>
+
+        <?php if (!empty($claims)) : ?>
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>Policy Number</th>
+
+                        <th>Insured Vehicle</th>
+
+                        <th>Customer / Policyholder</th>
+
+                        <th>Insurance Company</th>
+
+                        <th>Claim Amount</th>
+
+                        <th>Approved Amount</th>
+
+                        <th>Deducted / Rejected Amount</th>
+
+                        <th>Incident / Loss Date</th>
+
+                        <th>Claim Date</th>
+
+                        <th>Status</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <?php foreach ($claims as $row) : ?>
+
+                        <tr>
+
+                            <td>
+                                <?= htmlspecialchars(
+                                    $row->policy_number ?? '-'
+                                ) ?>
+                            </td>
+
+                            <td>
+                                <?php
+                                $vehicle = '';
+
+                                if (!empty($row->brand)) {
+                                    $vehicle .= $row->brand;
+                                }
+
+                                if (!empty($row->registration_no)) {
+
+                                    if ($vehicle !== '') {
+                                        $vehicle .= ' - ';
+                                    }
+
+                                    $vehicle .= $row->registration_no;
+                                }
+
+                                echo htmlspecialchars(
+                                    $vehicle !== '' ? $vehicle : '-'
+                                );
+                                ?>
+                            </td>
+
+                            <td>
+                                <?= htmlspecialchars(
+                                    $row->name ?? '-'
+                                ) ?>
+                            </td>
+
+                            <td>
+                                <?= htmlspecialchars(
+                                    $row->company_name ?? '-'
+                                ) ?>
+                            </td>
+                        
+                            <td>
+                                <?= htmlspecialchars(
+                                    $row->claim_amount ?? '-'
+                                ) ?>
+                            </td>
+
+                            <td>
+                                <?= htmlspecialchars(
+                                    $row->approved_amount ?? '-'
+                                ) ?>
+                            </td>
+
+                            <td>
+                                <?= htmlspecialchars(
+                                    $row->deducted_amount ?? '-'
+                                ) ?>
+                            </td>
+
+                            <td>
+                                <?= !empty($row->incident_date)
+                                    ? date('d-m-Y', strtotime($row->incident_date))
+                                    : '-' ?>
+                            </td>
+
+                            <td>
+                                <?= !empty($row->claim_date)
+                                    ? date('d-m-Y', strtotime($row->claim_date))
+                                    : '-' ?>
+                            </td>
+
+                            <td>
+                                <?= htmlspecialchars(
+                                    $row->claim_status ?? '-'
+                                ) ?>
+                            </td>
+
+                        </tr>
+
+                    <?php endforeach; ?>
+
+                </tbody>
+
+            </table>
+
+        <?php else : ?>
+
+            <p>
+                No policy records found.
+            </p>
+
+        <?php endif; ?>
+
+        <div class="footer">
+
+            Garage Management System
+
+        </div>
+
+    </body>
+
+</html>

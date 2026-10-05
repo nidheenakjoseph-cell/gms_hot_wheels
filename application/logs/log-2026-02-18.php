@@ -1,0 +1,32 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2026-02-18 10:56:06 --> Severity: Warning --> Undefined property: stdClass::$issue_count /home/greenea4/public_html/projects/gms/application/views/jobcard/list.php 139
+ERROR - 2026-02-18 10:56:06 --> Severity: Warning --> Undefined property: stdClass::$issue_count /home/greenea4/public_html/projects/gms/application/views/jobcard/list.php 139
+ERROR - 2026-02-18 10:56:06 --> Severity: Warning --> Undefined property: stdClass::$issue_count /home/greenea4/public_html/projects/gms/application/views/jobcard/list.php 139
+ERROR - 2026-02-18 10:56:06 --> Severity: Warning --> Undefined property: stdClass::$issue_count /home/greenea4/public_html/projects/gms/application/views/jobcard/list.php 139
+ERROR - 2026-02-18 10:56:06 --> Severity: Warning --> Undefined property: stdClass::$issue_count /home/greenea4/public_html/projects/gms/application/views/jobcard/list.php 139
+ERROR - 2026-02-18 10:56:06 --> Severity: Warning --> Undefined property: stdClass::$issue_count /home/greenea4/public_html/projects/gms/application/views/jobcard/list.php 139
+ERROR - 2026-02-18 10:56:06 --> Severity: Warning --> Undefined property: stdClass::$issue_count /home/greenea4/public_html/projects/gms/application/views/jobcard/list.php 139
+ERROR - 2026-02-18 10:56:06 --> Severity: Warning --> Undefined property: stdClass::$issue_count /home/greenea4/public_html/projects/gms/application/views/jobcard/list.php 139
+ERROR - 2026-02-18 10:56:06 --> Severity: Warning --> Undefined property: stdClass::$issue_count /home/greenea4/public_html/projects/gms/application/views/jobcard/list.php 139
+ERROR - 2026-02-18 10:56:06 --> Severity: Warning --> Undefined property: stdClass::$issue_count /home/greenea4/public_html/projects/gms/application/views/jobcard/list.php 139
+ERROR - 2026-02-18 10:56:06 --> Severity: Warning --> Undefined property: stdClass::$issue_count /home/greenea4/public_html/projects/gms/application/views/jobcard/list.php 139
+ERROR - 2026-02-18 10:56:06 --> Severity: Warning --> Undefined property: stdClass::$issue_count /home/greenea4/public_html/projects/gms/application/views/jobcard/list.php 139
+ERROR - 2026-02-18 10:56:06 --> Severity: Warning --> Undefined property: stdClass::$issue_count /home/greenea4/public_html/projects/gms/application/views/jobcard/list.php 139
+ERROR - 2026-02-18 10:56:06 --> Severity: Warning --> Undefined property: stdClass::$issue_count /home/greenea4/public_html/projects/gms/application/views/jobcard/list.php 139
+ERROR - 2026-02-18 10:56:06 --> Severity: Warning --> Undefined property: stdClass::$issue_count /home/greenea4/public_html/projects/gms/application/views/jobcard/list.php 139
+ERROR - 2026-02-18 10:56:06 --> Severity: Warning --> Undefined property: stdClass::$issue_count /home/greenea4/public_html/projects/gms/application/views/jobcard/list.php 139
+ERROR - 2026-02-18 10:56:06 --> Severity: Warning --> Undefined property: stdClass::$issue_count /home/greenea4/public_html/projects/gms/application/views/jobcard/list.php 139
+ERROR - 2026-02-18 10:56:06 --> Severity: Warning --> Undefined property: stdClass::$issue_count /home/greenea4/public_html/projects/gms/application/views/jobcard/list.php 139
+ERROR - 2026-02-18 10:56:06 --> Severity: Warning --> Undefined property: stdClass::$issue_count /home/greenea4/public_html/projects/gms/application/views/jobcard/list.php 139
+ERROR - 2026-02-18 10:56:06 --> Severity: Warning --> Undefined property: stdClass::$issue_count /home/greenea4/public_html/projects/gms/application/views/jobcard/list.php 139
+ERROR - 2026-02-18 10:56:06 --> Severity: Warning --> Undefined property: stdClass::$issue_count /home/greenea4/public_html/projects/gms/application/views/jobcard/list.php 139
+ERROR - 2026-02-18 10:56:06 --> Severity: Warning --> Undefined property: stdClass::$issue_count /home/greenea4/public_html/projects/gms/application/views/jobcard/list.php 139
+ERROR - 2026-02-18 10:56:06 --> Severity: Warning --> Undefined property: stdClass::$issue_count /home/greenea4/public_html/projects/gms/application/views/jobcard/list.php 139
+ERROR - 2026-02-18 10:56:06 --> Severity: Warning --> Undefined property: stdClass::$issue_count /home/greenea4/public_html/projects/gms/application/views/jobcard/list.php 139
+ERROR - 2026-02-18 10:56:06 --> Severity: Warning --> Undefined property: stdClass::$issue_count /home/greenea4/public_html/projects/gms/application/views/jobcard/list.php 139
+ERROR - 2026-02-18 10:56:06 --> Severity: Warning --> Undefined property: stdClass::$issue_count /home/greenea4/public_html/projects/gms/application/views/jobcard/list.php 139
+ERROR - 2026-02-18 10:56:06 --> Severity: Warning --> Undefined property: stdClass::$issue_count /home/greenea4/public_html/projects/gms/application/views/jobcard/list.php 139
+ERROR - 2026-02-18 10:56:06 --> Severity: Warning --> Undefined property: stdClass::$issue_count /home/greenea4/public_html/projects/gms/application/views/jobcard/list.php 139
+ERROR - 2026-02-18 10:56:06 --> Severity: Warning --> Undefined property: stdClass::$issue_count /home/greenea4/public_html/projects/gms/application/views/jobcard/list.php 139
+ERROR - 2026-02-18 10:56:06 --> Severity: Warning --> Undefined property: stdClass::$issue_count /home/greenea4/public_html/projects/gms/application/views/jobcard/list.php 139
